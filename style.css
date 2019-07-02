@@ -11,7 +11,10 @@ body{
 a{
     color: #9f0f3b;
     font-size: 25pt;
-    text-decoration: none;
-
-    
+    text-decoration: none;    
+}
+header{
+    background-image: url("imagens/homem-aranha.jpg");
+    background-size: cover;
+    height: 1000px;
 }
