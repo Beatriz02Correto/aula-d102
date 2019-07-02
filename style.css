@@ -16,5 +16,23 @@ a{
 header{
     background-image: url("imagens/homem-aranha.jpg");
     background-size: cover;
-    height: 1000px;
+    height: 600px;
 }
+section{
+    background-color: #9f0f3b;
+    display: flex;
+    justify-content: space-evenly;
+}
+div{
+    width: 40%;
+    text-align: center;
+}
+div ul{
+    list-style-type: none;
+    /* list-style-type: url("imagens/simbulo.jpg");*/
+
+}
+ul li:nth-child(odd){
+    color: white
+}
+
