@@ -1,0 +1,17 @@
+nav{
+    align-items: center;
+    background-color: #253656;
+    display:flex;
+    justify-content: space-evenly;
+}
+body{
+    font-family: 'Press Start 2P', cursive;
+    margin: 0;
+}
+a{
+    color: #9f0f3b;
+    font-size: 25pt;
+    text-decoration: none;
+
+    
+}
