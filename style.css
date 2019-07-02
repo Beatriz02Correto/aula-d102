@@ -3,6 +3,7 @@ nav{
     background-color: #253656;
     display:flex;
     justify-content: space-evenly;
+    height: 50px;
 }
 body{
     font-family: 'Press Start 2P', cursive;
@@ -23,7 +24,7 @@ section{
     display: flex;
     justify-content: space-evenly;
 }
-div{
+section div{
     width: 40%;
     text-align: center;
 }
@@ -34,5 +35,26 @@ div ul{
 }
 ul li:nth-child(odd){
     color: white
+}
+input::placeholder,button{
+    font-family: 'Press Start 2P', cursive;
+}
+input:focus{
+    background-color: #253656;
+}
+footer div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+footer{
+    background-color: #253656;
+
+}
+button{
+    background-color: #9f0f3b;
+}
+p{
+    font-family: 'Comfortaa', cursive;
 }
 
